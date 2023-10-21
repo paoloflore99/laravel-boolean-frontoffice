@@ -1,17 +1,19 @@
 <script>
-import HelloWorld from './components/ChiSiamo.vue'
-import HelloWorld from './components/Contattaci.vue'
+import HelloWorld from './components/TheHeader.vue'
+import HelloWorld from './components/TheFooter.vue'
 
 export default {
   components: {
-    ChiSiamo,
-    Contattaci
+    TheHeader,
+    TheFooter
   }
 }
 </script>
 
 <template>
-  <h1>Ciao</h1>
+  <TheHeader></TheHeader>
+  <main></main>
+  <TheFooter></TheFooter>
 </template>
 
 <style scoped></style>
