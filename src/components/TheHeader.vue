@@ -7,23 +7,26 @@ export default {
 </script>
 <template>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-black">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <!-- Logo qui -->
+        <div class="navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Chi Siamo</a>
-            <a class="nav-link" href="#">Contatti</a>
+            <router-link class="nav-link active text-white" to="/" aria-current="page">Home</router-link>
+            <router-link class="nav-link text-white" to="/about">Chi Siamo</router-link>
+            <router-link class="nav-link text-white" to="/contacts">Contatti</router-link>
             
           </div>
         </div>
       </div>
     </nav>
+    <div class="yellow-stripe"></div>
   </header>
-
 </template>
 <style>
-
+.yellow-stripe{
+  height: 5px;
+  background-color: #A3A656;
+  width: 100%;
+}
 </style>
