@@ -9,21 +9,29 @@ export default {
 }
 </script>
 <template>
-    <TheHeader></TheHeader>
+  <TheHeader></TheHeader>
   <div class="container pt-5">
-    <div class="row pt-5">
-      <div class="col-12 col-md-6 pt-5">
+    <div class="row pt-5 align-item-center">
+
+      <div class="col-12 col-md-6 pt-5 d-flex align-item-center">
         <img src="src/assets/img/chisiamo.jpg" class="img-fluid" alt="immagine del bar">
       </div>
 
       <div class="col-12 col-md-6 custom-margin-top custom-bg ps-5 pe-5 mt-5">
-        <p class="mt-5 custom-font">Benvenuti da Boolean, il bar che trasforma l'arte dei cocktail in una straordinaria esperienza sensoriale. <br>
-          La
-          nostra storia è nata dall'amore per l'innovazione e la creativita nel mondo dei drink. <br> il nostro obiettivo
-          e
-          offrire ai nostri clienti un viaggio unico tra sapori sorprendenti e una creazione di taleto e passione,
-          preparato con ingredienti freschi e techniche avanzate. <br> siamo qui per stupirvi e creare ricordi indimenticabile. <br>
-          unitevi a noi in questa avventura culinaria e scoprite il mondo di Boolean</p>
+        <div style="overflow-x:auto; max-height:100%; height:100%;">
+          <p class="mt-5 custom-font">Benvenuti da Boolean, il bar che trasforma l'arte dei cocktail in una straordinaria
+            esperienza sensoriale. <br>
+            La
+            nostra storia è nata dall'amore per l'innovazione e la creativita nel mondo dei drink. <br> il nostro
+            obiettivo
+            e
+            offrire ai nostri clienti un viaggio unico tra sapori sorprendenti e una creazione di taleto e passione,
+            preparato con ingredienti freschi e techniche avanzate. <br> siamo qui per stupirvi e creare ricordi
+            indimenticabile. <br>
+            unitevi a noi in questa avventura culinaria e scoprite il mondo di Boolean
+          </p>
+        </div>
+
 
       </div>
     </div>
@@ -46,7 +54,6 @@ body {
 /* .custom-margin-top {
   margin-top: 200px;
 } */
-.custom-bg{
-  background-color:  #4C4C4C;
-}
-</style>
+.custom-bg {
+  background-color: #4C4C4C;
+}</style>
