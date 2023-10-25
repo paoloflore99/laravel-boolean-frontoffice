@@ -16,6 +16,7 @@ export default {
 
           <div class="navbar-nav ">
             <router-link class="nav-link active text-white me-5" to="/" aria-current="page">Home</router-link>
+            <router-link class="nav-link text-white me-5" to="/cocktails">I Nostri Drinks</router-link>
             <router-link class="nav-link text-white me-5" to="/about">Chi Siamo</router-link>
             <router-link class="nav-link text-white me-5" to="/contacts">Contatti</router-link>
           </div>

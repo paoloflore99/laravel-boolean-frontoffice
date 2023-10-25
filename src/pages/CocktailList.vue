@@ -41,15 +41,10 @@ export default {
   <div class="altezza">
 
     <TheHeader></TheHeader>
-  <div class="sfondo " @click="resetClick">
+  <div class="bg-cocktail " @click="resetClick">
     
       <div class="container">
-
-        <div class="p-4 ">
-          <h2>Boolean Cocktail Bar</h2>
-        </div>
-
-
+        <h2 class="ps-5 ms-5 pt-4">Boolean Cocktail Bar</h2>
         <div class="scrollable-container">
           <div class="row  d-flex justify-content-center">
             <div class="info card bg-transparent col-3  d-flex justify-content-center border-0"
@@ -85,15 +80,15 @@ export default {
   height: 100vh;
   overflow: hidden;
 }
-.sfondo {
-  background-image: url(../assets/img/Background.jpg);
-  height: 80vh;
-  background-size:cover;
+.bg-cocktail {
+  background-image: url(../assets/img/home-page-cocktailbar.jpg);
+  background-size: cover;
   background-position-x: left bottom;
   background-position-y: bottom;
   background-repeat: no-repeat;
-
+  height: 80vh;
 }
+
 .descrizione {
   transition: 1s;
 }

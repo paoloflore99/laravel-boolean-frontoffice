@@ -26,9 +26,9 @@ export default {
             obiettivo
             e
             offrire ai nostri clienti un viaggio unico tra sapori sorprendenti e una creazione di taleto e passione,
-            preparato con ingredienti freschi e techniche avanzate. <br> siamo qui per stupirvi e creare ricordi
-            indimenticabile. <br>
-            unitevi a noi in questa avventura culinaria e scoprite il mondo di Boolean
+            preparato con ingredienti freschi e techniche avanzate. <br> Siamo qui per stupirvi e creare ricordi
+            indimenticabili. <br>
+            Unitevi a noi in questa avventura culinaria e scoprite il mondo di Boolean
           </p>
         </div>
 
