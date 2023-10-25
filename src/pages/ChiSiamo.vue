@@ -13,8 +13,8 @@ export default {
   <div class="container pt-5">
     <div class="row pt-5 align-item-center">
 
-      <div class="col-12 col-md-6 pt-5 d-flex align-item-center">
-        <img src="src/assets/img/chisiamo.jpg" class="img-fluid" alt="immagine del bar">
+      <div class="col-12 col-lg-6 pt-5 d-flex align-item-center">
+        <img src="src/assets/img/chisiamo.jpg" class="img-fluid max-width-100" alt="immagine del bar">
       </div>
 
       <div class="col-12 col-md-6 custom-margin-top custom-bg ps-5 pe-5 mt-5">

@@ -1,14 +1,13 @@
 <script>
 export default {
-  
-
 
 }
+
 </script>
 <template>
-  <footer>
+  <footer class="footer-hover d-none d-md-block">
     <div class="yellow-stripe"></div>
-    <div class="contact-info d-flex justify-content-around mt-3">
+    <div class="col-12 contact-info d-flex justify-content-around mt-3">
         <p><strong>Indirizzo:</strong> Via del Cocktail, 20</p>
         <p><strong>Telefono:</strong> 0039 3452489551</p>
         <p><strong>Email:</strong> info@booleancocktailbar.com</p>
@@ -18,14 +17,19 @@ export default {
 
 </template>
 <style>
-footer{
+
+.footer-hover {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 70px;
-  background: black;  
+  background: black; 
+  opacity: .5;
+  transition: opacity 0.5s ease;
 }
 
+.footer-hover:hover {
+  opacity: 1;
+}
 .slogan{
   text-align: center;
 
