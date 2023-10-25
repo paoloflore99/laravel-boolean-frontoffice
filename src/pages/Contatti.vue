@@ -16,7 +16,7 @@ export default {
         <!-- descrizione pagina -->
         <div class="row justify-content-center pt-5">
             <div class="col-4">
-                <h1 class="text-center mt-5 mb-5">Reservation</h1>
+                <h1 class="text-center mt-5 mb-5">Prenota un tavolo!</h1>
                 <p class="text-center mt-5 mb-5 custom-font">Siamo sempre pronti a rispondere alle vostre domande e
                     accogliere le vostre prenotazione. Non esitate a
                     contattarci.
@@ -39,7 +39,7 @@ export default {
           </div>
 
           <div class="col-sm-3">
-            <button class="btn custom-btn" @click="bookTable">Book a Table</button>
+            <button class="btn custom-btn" @click="bookTable">Prenota</button>
           </div>
         </div>
       </form>

@@ -11,7 +11,7 @@ export default {
     <nav class="navbar navbar-expand-lg bg-black justify-content-center">
 
       <div class="container-fluid">
-        <img class="ms-5 me-5" src="src/assets/img/logo-boolean.png" style="width: 120px;" alt="">
+        <img class="ms-5 me-5" src="src/assets/img/logo-boolean2.png" style="width: 120px;" alt="">
         <div class="navbar-collapse" id="navbarNavAltMarkup">
 
           <div class="navbar-nav ">

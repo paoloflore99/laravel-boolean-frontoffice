@@ -54,8 +54,9 @@ export default {
               :class="{ clicked: isClicked === cocktail.id }">
               <img :src="cocktail.image" class="rounded-2" alt="">
               <div class="card-body descrizione text-white">
-                <p class="card-text">{{ cocktail.nome }}</p>
+                <p class="card-text name-text">{{ cocktail.nome }}</p>
                 <p class="card-text">{{ cocktail.category }}</p>
+                <p class="card-text">{{ cocktail.ingredients }}</p>
               </div>
             </div>
           </div>
@@ -75,6 +76,10 @@ export default {
 
 
 <style scoped>
+
+.name-text {
+  font-size: 1.5rem;
+}
 
 .altezza {
   height: 100vh;
@@ -115,7 +120,7 @@ export default {
 }
 
 .scrollable-container {
-  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-color: rgba(0, 0, 0, 0.5);
   max-height: 600px;
   overflow-y: auto;
 }
