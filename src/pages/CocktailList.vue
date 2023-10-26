@@ -52,7 +52,8 @@ export default {
               :key="cocktail.id"
               @click.stop="toggleClick(cocktail.id)"
               :class="{ clicked: isClicked === cocktail.id }">
-              <img :src="cocktail.image" class="rounded-2" alt="">
+              <!-- <img :src="cocktail.image" class="rounded-2" alt=""> -->
+              <img src="../assets/img/photo-1514362545857-3bc16c4c7d1b.jpg" alt="" class="rounded-2" >
               <div class="card-body descrizione text-white">
                 <p class="card-text">{{ cocktail.nome }}</p>
                 <p class="card-text">{{ cocktail.category }}</p>
@@ -63,9 +64,7 @@ export default {
 
       </div>
 
-      <div>
-        <img src="../assets/img/_a52653cc-f68e-443d-b871-85d57e0db9e7.jpg" alt="">
-      </div>
+
     
     <TheFooter></TheFooter>
   </div>
@@ -115,13 +114,13 @@ export default {
 }
 
 .scrollable-container {
-  /* background-color: rgba(0, 0, 0, 0.3); */
+  background-color: rgba(0, 0, 0, 0.3);
   max-height: 600px;
   overflow-y: auto;
 }
 
 .scrollable-container::-webkit-scrollbar {
-  width: 2px;
+  width: 0px;
 }
 
 /* <img :src="cocktail.image" class="card-img-top" alt="..."> */
