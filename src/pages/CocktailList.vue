@@ -22,6 +22,7 @@ export default {
     })
   },
 
+  
 
 
   methods: {
@@ -119,11 +120,7 @@ export default {
 }
 
 .scrollable-container {
-<<<<<<< HEAD
-  background-color: rgba(0, 0, 0, 0.3);
-=======
   background-color: rgba(0, 0, 0, 0.5);
->>>>>>> 12c24156551ae68fce6578a2056a4733d566e4b6
   max-height: 600px;
   overflow-y: auto;
 }
